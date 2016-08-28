@@ -27,7 +27,7 @@ function setData (arrayArgs1, arrayArgs2) {
       return new XMLHttpRequest();
     }
 
-  //Функция отправка ajax и обработка ответа
+  //Отправка jax и обработка ответа
   function ajaxSend(filename, async, responseObjectName) {
     var xhr = getXhrObject();
     xhr.open('GET', '/Kontur.task/json/' + filename, async);
