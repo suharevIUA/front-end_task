@@ -1,0 +1,33 @@
+@media print {
+
+	div.title,p.back-hint,span.grouplist-link,section.left-bar,.tablet:after,.tablet:before,
+	.student-full-name,input[value='Удалить'],input[value='Добавить предмет'] {
+		display: none;
+	}
+
+	.wrapper {
+		background: none;
+	}
+
+	.tablet {
+		border: none;
+		background: none;
+	}
+
+	.work-space:before {
+		content: 'Карточка посещаемости студента';
+		display: block;
+		font-size: 22px;
+	}
+
+	.student-card {
+		box-shadow: none;
+	}
+
+	canvas {
+		width: 400px;
+		height: 400px;
+	}
+
+}
+	

@@ -1,0 +1,451 @@
+[
+  {
+    "id": "student_1",
+    "surname": "Лоза",
+    "name": "Юрий",
+    "patronymic": "Эдуардович",
+    "gender": "male",
+    "birth": "01.07.1989",
+    "entered": "05.07.2010",
+    "visitedLessons": [
+      "lesson_2",
+      "lesson_6",
+      "lesson_8"
+    ]
+  },
+  {
+    "id": "student_2",
+    "surname": "Антонов",
+    "name": "Юрий",
+    "patronymic": "Михайлович",
+    "gender": "male",
+    "birth": "22.10.1990",
+    "entered": "05.08.2010",
+    "visitedLessons": [
+      "lesson_4",
+      "lesson_8"
+    ]
+  },
+  {
+    "id": "student_3",
+    "surname": "Ротару",
+    "name": "София",
+    "patronymic": "Михайловна",
+    "gender": "female",
+    "birth": "22.02.1991",
+    "entered": "11.07.2010",
+    "visitedLessons": [
+      "lesson_2",
+      "lesson_6",
+      "lesson_1",
+      "lesson_3"
+    ]
+  },
+  {
+    "id": "student_4",
+    "surname": "Антонов",
+    "name": "Юрий",
+    "patronymic": "Антонович",
+    "gender": "male",
+    "birth": "22.10.1960",
+    "entered": "05.12.2010",
+    "visitedLessons": [
+      "lesson_2",
+      "lesson_6",
+      "lesson_8",
+      "lesson_3"
+    ]
+  },
+  {
+    "id": "student_5",
+    "surname": "Сайтиев",
+    "name": "Абубакар",
+    "patronymic": "Оглы",
+    "gender": "male",
+    "birth": "22.10.1978",
+    "entered": "01.02.2010",
+    "visitedLessons": [
+      "lesson_2",
+      "lesson_6",
+      "lesson_8",
+      "lesson_3"
+    ]
+  },
+  {
+    "id": "student_6",
+    "surname": "Моргунова",
+    "name": "Наталья",
+    "patronymic": "Андреевна",
+    "gender": "female",
+    "birth": "31.05.1993",
+    "entered": "29.12.2010",
+    "visitedLessons": [
+      "lesson_2",
+      "lesson_6",
+      "lesson_8",
+      "lesson_3"
+    ]
+  },
+  {
+    "id": "student_7",
+    "surname": "Иванова",
+    "name": "Марина",
+    "patronymic": "Юрьевна",
+    "gender": "female",
+    "birth": "11.06.1989",
+    "entered": "12.08.2011",
+    "visitedLessons": [
+      "lesson_2",
+      "lesson_6",
+      "lesson_8",
+      "lesson_3",
+      "lesson_1"
+    ]
+  },
+  {
+    "id": "student_8",
+    "surname": "Бёрдов",
+    "name": "Дмитрий",
+    "patronymic": "Алексеевич",
+    "gender": "male",
+    "birth": "22.10.1988",
+    "entered": "01.01.2009",
+    "visitedLessons": [
+      "lesson_2",
+      "lesson_5",
+      "lesson_2",
+      "lesson_3"
+    ]
+  },
+  {
+    "id": "student_9",
+    "surname": "Константинопольский",
+    "name": "Константин",
+    "patronymic": "Константинович",
+    "gender": "male",
+    "birth": "12.04.1950",
+    "entered": "01.04.2000",
+    "visitedLessons": [
+      "lesson_2",
+      "lesson_6",
+      "lesson_8"
+    ]
+  },
+  {
+    "id": "student_10",
+    "surname": "Семин",
+    "name": "Юрий",
+    "patronymic": "Павлович",
+    "gender": "male",
+    "birth": "22.10.1990",
+    "entered": "11.03.2011",
+    "visitedLessons": [
+      "lesson_2",
+      "lesson_6",
+      "lesson_8",
+      "lesson_3",
+      "lesson_7"
+    ]
+  },
+  {
+    "id": "student_11",
+    "surname": "Дёмина",
+    "name": "Екатерина",
+    "patronymic": "Анатольевна",
+    "gender": "female",
+    "birth": "22.10.1991",
+    "entered": "20.10.2007",
+    "visitedLessons": [
+      "lesson_2",
+      "lesson_6",
+      "lesson_8",
+      "lesson_4"
+    ]
+  },
+  {
+    "id": "student_12",
+    "surname": "Алексеева",
+    "name": "Анна",
+    "patronymic": "Евгеньевна",
+    "gender": "female",
+    "birth": "01.07.1978",
+    "entered": "11.10.2007",
+    "visitedLessons": [
+      "lesson_2",
+      "lesson_6",
+      "lesson_8",
+      "lesson_3"
+    ]
+  },
+  {
+    "id": "student_13",
+    "surname": "Дмитренко",
+    "name": "Галина",
+    "patronymic": "Алексеевна",
+    "gender": "female",
+    "birth": "15.11.1988",
+    "entered": "05.12.2010",
+    "visitedLessons": [
+      "lesson_2",
+      "lesson_6",
+      "lesson_8",
+      "lesson_3"
+    ]
+  },
+  {
+    "id": "student_14",
+    "surname": "Белов",
+    "name": "Владимир",
+    "patronymic": "Григорьевич",
+    "gender": "male",
+    "birth": "22.10.1690",
+    "entered": "05.12.2010",
+    "visitedLessons": [
+      "lesson_4",
+      "lesson_5",
+      "lesson_7",
+      "lesson_1"
+    ]
+  },
+  {
+    "id": "student_15",
+    "surname": "Смолов",
+    "name": "Федор",
+    "patronymic": "Валерьевич",
+    "gender": "male",
+    "birth": "22.10.1970",
+    "entered": "05.12.2010",
+    "visitedLessons": [
+      "lesson_4",
+      "lesson_6",
+      "lesson_8",
+      "lesson_3"
+    ]
+  },
+  {
+    "id": "student_16",
+    "surname": "Толоконникова",
+    "name": "Надежда",
+    "patronymic": "Петровна",
+    "gender": "female",
+    "birth": "22.10.1990",
+    "entered": "05.12.2010",
+    "visitedLessons": [
+      "lesson_2",
+      "lesson_6",
+      "lesson_8",
+      "lesson_3"
+    ]
+  },
+  {
+    "id": "student_17",
+    "surname": "Петров",
+    "name": "Петр",
+    "patronymic": "Петрович",
+    "gender": "male",
+    "birth": "22.10.1993",
+    "entered": "05.12.2010",
+    "visitedLessons": [
+      "lesson_2",
+      "lesson_6",
+      "lesson_4",
+      "lesson_3"
+    ]
+  },
+  {
+    "id": "student_18",
+    "surname": "Ионов",
+    "name": "Павел",
+    "patronymic": "Павлович",
+    "gender": "male",
+    "birth": "22.10.1989",
+    "entered": "05.12.2010",
+    "visitedLessons": [
+      "lesson_2",
+      "lesson_6",
+      "lesson_8",
+      "lesson_3"
+    ]
+  },
+  {
+    "id": "student_19",
+    "surname": "Понедельник",
+    "name": "Виктор",
+    "patronymic": "Владимирович",
+    "gender": "male",
+    "birth": "22.10.1980",
+    "entered": "11.08.2006",
+    "visitedLessons": [
+      "lesson_2",
+      "lesson_4",
+      "lesson_8",
+      "lesson_3"
+    ]
+  },
+  {
+    "id": "student_20",
+    "surname": "Маминова",
+    "name": "Анастасия",
+    "patronymic": "Олеговна",
+    "gender": "female",
+    "birth": "22.10.1989",
+    "entered": "02.03.2012",
+    "visitedLessons": [
+      "lesson_2",
+      "lesson_5",
+      "lesson_8",
+      "lesson_3"
+    ]
+  },
+  {
+    "id": "student_21",
+    "surname": "Мыльников",
+    "name": "Арсений",
+    "patronymic": "Антонович",
+    "gender": "male",
+    "birth": "22.10.1990",
+    "entered": "05.12.2011",
+    "visitedLessons": [
+      "lesson_2",
+      "lesson_6",
+      "lesson_8",
+      "lesson_1"
+    ]
+  },
+  {
+    "id": "student_22",
+    "surname": "Антонов",
+    "name": "Федор",
+    "patronymic": "Федорович",
+    "gender": "male",
+    "birth": "22.10.1989",
+    "entered": "05.12.2007",
+    "visitedLessons": [
+      "lesson_2",
+      "lesson_6",
+      "lesson_8",
+      "lesson_7"
+
+    ]
+  },
+  {
+    "id": "student_23",
+    "surname": "Миранчук",
+    "name": "Алексей",
+    "patronymic": "Антонович",
+    "gender": "male",
+    "birth": "22.10.1993",
+    "entered": "02.11.2010",
+    "visitedLessons": [
+      "lesson_2",
+      "lesson_6",
+      "lesson_8",
+      "lesson_3"
+    ]
+  },
+  {
+    "id": "student_24",
+    "surname": "Маслова",
+    "name": "Анна",
+    "patronymic": "Юрьевна",
+    "gender": "female",
+    "birth": "22.05.1987",
+    "entered": "05.12.2010",
+    "visitedLessons": [
+      "lesson_2",
+      "lesson_6",
+      "lesson_8",
+      "lesson_3"
+    ]
+  },
+  {
+    "id": "student_25",
+    "surname": "Шевченко",
+    "name": "Ольга",
+    "patronymic": "Васильевна",
+    "gender": "female",
+    "birth": "18.07.1990",
+    "entered": "01.12.2011",
+    "visitedLessons": [
+      "lesson_7",
+      "lesson_6",
+      "lesson_8",
+      "lesson_3"
+    ]
+  },
+  {
+    "id": "student_26",
+    "surname": "Пестов",
+    "name": "Денис",
+    "patronymic": "Германович",
+    "gender": "male",
+    "birth": "22.10.1990",
+    "entered": "05.12.2011",
+    "visitedLessons": [
+      "lesson_2",
+      "lesson_6",
+      "lesson_8",
+      "lesson_3"
+    ]
+  },
+  {
+    "id": "student_27",
+    "surname": "Тищенко",
+    "name": "Галина",
+    "patronymic": "Евгеньевна",
+    "gender": "female",
+    "birth": "22.07.1981",
+    "entered": "05.12.2010",
+    "visitedLessons": [
+      "lesson_2",
+      "lesson_5",
+      "lesson_8",
+      "lesson_3"
+    ]
+  },
+  {
+    "id": "student_28",
+    "surname": "Пименов",
+    "name": "Руслан",
+    "patronymic": "Антонович",
+    "gender": "male",
+    "birth": "22.10.1991",
+    "entered": "05.12.2005",
+    "visitedLessons": [
+      "lesson_4",
+      "lesson_6",
+      "lesson_8",
+      "lesson_3"
+    ]
+  },
+  {
+    "id": "student_29",
+    "surname": "Седельникова",
+    "name": "Варвара",
+    "patronymic": "Александровна",
+    "gender": "female",
+    "birth": "22.10.1990",
+    "entered": "05.12.2010",
+    "visitedLessons": [
+      "lesson_5",
+      "lesson_6",
+      "lesson_7",
+      "lesson_3"
+    ]
+  },
+  {
+    "id": "student_30",
+    "surname": "Андреев",
+    "name": "Никита",
+    "patronymic": "Антонович",
+    "gender": "male",
+    "birth": "22.10.1995",
+    "entered": "05.12.2010",
+    "visitedLessons": [
+      "lesson_5",
+      "lesson_6",
+      "lesson_8",
+      "lesson_3"
+    ]
+  }
+]

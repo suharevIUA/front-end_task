@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Students journal</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/tcal.css">
+	<link rel="stylesheet" type="text/css" href="css/print.css">
+	<script src="js/default_import.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="title">
+			<h1>Список студентов</h1>
+			<div class="group-name">	
+				<select>
+					<option>MT-202</option>
+				</select>
+			</div>
+			<div class="print-wrap">
+				<input type="button" value="Распечатать" onclick="window.print();">
+			</div>	
+		</div>
+		<div class="tablet">
+			<p class='back-hint'>Выберите запись для отображения подробной информации</p>
+			<span class="grouplist-link">
+			← <a href="grouplist" onclick="event.preventDefault();">Вернуться к списку групп</a>
+			</span>
+			<div class="student-full-name">
+				<h2 class="hidden">	</h2>
+			</div>
+			<div class='work-space'>
+				<section class='left-bar'>
+					<div class="add-wrap">
+						<input id="add-student" type="button" value="Добавить студента">
+					</div>
+					<div class="save-changes-wrap">
+						<input type="button" value="Сохранить изменения">
+					</div>
+					<div class="students-list"></div>
+				</section>
+				<section class='card-wrap'>
+				<div class='student-card hidden'>	
+					<article class='standart-data'>
+						<form>
+							<h3>Стандартные личные данные</h3>
+							<input type='button' value='Удалить' class='delete'>
+							<table>
+								<tr>
+									<td>
+										<label for='surname'>Фамилия</label>
+									</td>	
+									<td>
+										<input type='text' id='surname'>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label for='name'>Имя</label>
+									</td>
+									<td>
+										<input type='text' id='name'>
+									</td>	
+								</tr>
+								<tr>
+									<td>
+										<label for='patronymic'>Отчество</label>
+									</td>
+									<td>
+										<input type='text' id='patronymic'>
+									</td>	
+								</tr>
+								<tr>
+									<td>
+										<span>Пол</span>
+									</td>
+									<td>
+										<input type='radio' id='male' name='gender'>
+										<label for="male">Мужской</label>
+										<input type='radio' id='female' name='gender'>
+										<label for="female">Женский</label>
+									</td>	
+								</tr>
+								<tr>
+									<td>
+										<label for='birth'>Дата рождения</label>
+									</td>
+									<td class='td-rel'>
+										<input type='text' id='birth'>
+										<span class="help">дд.мм.гггг</span>
+										<div class="calendar-wrap">
+											<input type="button" class="calendar" data-related-input="birth">
+										</div>
+									</td>
+								</tr>	
+								<tr>
+									<td>
+										<label for='entered'>Дата поступления</label>
+									</td>
+									<td class='td-rel'>
+										<input type='text' id='entered'>
+										<span class="help">дд.мм.гггг</span>
+										<div class="calendar-wrap">
+											<input type="button" class="calendar" data-related-input="entered">
+										</div>
+									</td>	
+								</tr>
+							</table>
+						</form>
+					</article>
+					<article class='lessons'>
+						<form name='add-lesson'>
+							<h3>Список посещаемых предметов</h3>
+							<input type='button' value='Добавить предмет'>
+							<div class='lesson-list'></div>
+						</form>
+						<ul class="linear-chart-metrics">
+							<li></li>
+							<li class="intermediate"></li>
+							<li class="intermediate"></li>
+							<li class="intermediate"></li>
+							<li></li>
+							<li class="intermediate"></li>
+							<li class="intermediate"></li>
+							<li class="intermediate"></li>
+							<li class="intermediate"></li>
+							<li></li>	
+						</ul>
+						<ul class='linear-chart'></ul>
+						<div class="pie-chart">	
+							<canvas width='300' height='300'>
+								Обновите браузер
+							</canvas>
+						</div>	
+					</article>
+				</div>
+			</section>
+			</div>	
+		</div>
+	</div>	
+	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="js/tcal.js"></script> 
+</body>
+</html>

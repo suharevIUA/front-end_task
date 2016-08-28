@@ -1,0 +1,819 @@
+* {
+	font-family: Arial;
+	
+	
+}
+
+input:focus {
+	outline: none;
+}
+
+a {
+	color: #3072c4;
+	font-weight: 600;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+body {
+	margin: 0;
+}
+
+h1,h2,h3 {
+	margin-top: 0;
+	font-weight: 500;
+}
+
+h2 {
+	margin-bottom: 0;
+}
+
+li {
+	list-style: none;
+}
+
+ul {
+	margin-top: 0;
+}
+
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 15px 20px;
+	box-sizing: border-box;
+	background-image: url(../img/004.png); 
+	position: relative;	
+	z-index: 0;
+}
+
+.title {
+	padding: 0 30px;
+	box-sizing: border-box;
+	color: #404040;
+}
+
+.title>* {
+	float: left;
+}
+
+.title:after {
+	content: '';
+	visibility: hidden;
+	display: block;
+	clear: both;
+} 
+ 
+h1 {
+	font-size: 28px;
+}
+
+.print-wrap {
+	float: right;
+	background: linear-gradient(to top, #dedede 0%, #fefefe 120%);
+	border-radius: 4px;
+	position: relative;
+	
+}
+
+.print-wrap:before {
+	content: '';
+	position: absolute;
+	top : -1px;
+	left: -1px;
+	right: -1px;
+	bottom: -1px;
+	border-radius: inherit;
+	background: linear-gradient(to top, #ababab 5%, #d9d9d9 10%);
+	z-index: -1;
+}
+
+input[value="Распечатать"] {
+	text-align: left;
+	height: 30px;
+	padding: 0 20px 0 30px;
+	font-weight: 600;
+	box-sizing: border-box;
+	letter-spacing: -0.5px; 
+	font-size: 13px;
+	color: #404040;
+	background-image: url(../img/005.png);
+	background-repeat: no-repeat;
+	background-position: 10px;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+	text-shadow: 0 -1px 0 rgba(250, 250, 250, 0.8);
+	
+}
+
+.print-wrap:active,.add-wrap:active,.save-changes-wrap:active {
+	bottom: -1px;
+}
+
+.calendar-wrap:active {
+	top: 1px !important;
+}
+
+.group-name {
+	font-size: 25px;
+	padding-left: 40px; 
+}
+
+.group-name>select {
+	background-color: transparent;
+	border: none;
+	font-size: 17px;
+	color: #404040;
+	vertical-align: bottom;
+	min-width: 100px;
+}
+
+ul {
+	padding: 0;
+}
+
+.student-card,.student-full-name>h2 {
+	transition: opacity 0.2s ease-out;
+	opacity: 0;
+}
+
+.hidden {
+	z-index: -1000 !important;
+	position: relative;
+}
+
+
+.active {
+	opacity: 1 !important;
+}
+
+
+
+.linear-chart {
+	display: block;
+	height: 20px;
+	width: 99%;
+	clear: both;
+	overflow: hidden;
+	margin: 0 auto 70px ;
+}
+
+.linear-chart>li {
+	display: block;
+	float: left;
+}
+
+	
+
+.tablet {
+    background-color: #f1f1f1;
+	border-top: 10px solid #007dcd;
+	position: relative;
+	z-index: 0; 
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+.tablet:before,.tablet:after {
+	content: '';
+	display: block;
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	background: linear-gradient(to bottom, #ffffff 0%, transparent 85%);
+	height: 245px;
+}
+
+.tablet:after {
+	background: linear-gradient(to top, #ffffff 5%, transparent 50%);
+    bottom: 0;
+}
+
+.grouplist-link {
+	font-size: 13px;
+	display: block;
+	margin: 20px 0 0 30px;
+
+}
+
+.student-full-name {
+	margin: 15px 0 15px 30px;
+	min-height: 28px;
+	padding-bottom: 2px;
+}
+
+
+.add-wrap {
+	background: linear-gradient(to top, #dedede 0%, #fefefe 120%);
+	border-radius: 4px;
+	position: relative;
+	width: 170px;
+	margin: 27px 10px 10px 20px;
+	
+}
+
+.add-wrap:before {
+	content: '';
+	position: absolute;
+	top : -1px;
+	left: -1px;
+	right: -1px;
+	bottom: -1px;
+	border-radius: inherit;
+	background: linear-gradient(to top, #ababab 5%, #d9d9d9 10%);
+	z-index: -1;
+}
+
+input[value="Добавить студента"] {
+	text-align: left; 
+	height: 30px;
+	padding-left: 30px;
+	width: 170px;
+	font-weight: 600;
+	box-sizing: border-box;
+	letter-spacing: -0.5px; 
+	font-size: 13px;
+	color: #404040;
+	background-image: url(../img/001.png);
+	background-repeat: no-repeat;
+	background-position: 10px;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+	text-shadow: 0 -1px 0 rgba(250, 250, 250, 0.8);
+	
+}
+
+.left-bar {
+	float: left;
+}
+
+
+
+.save-changes-wrap {
+	background: linear-gradient(to top, #007dcd 0%, #009cff 120%);
+	border-radius: 4px;
+	position: relative;
+	width: 170px;
+	margin: 0 0 0 20px;
+	
+}
+
+.save-changes-wrap:before {
+	content: '';
+	position: absolute;
+	top : -1px;
+	left: -1px;
+	right: -1px;
+	bottom: -1px;
+	border-radius: inherit;
+	background: linear-gradient(to top, #00558b 5%, #007dcd 10%);
+	z-index: -1;
+}
+
+input[value="Сохранить изменения"] {
+	text-align: left;
+	height: 30px;
+	padding-left: 30px;
+	width: 170px;
+	font-weight: 600;
+	box-sizing: border-box;
+	letter-spacing: -0.5px; 
+	font-size: 13px;
+	color: #ffffff;
+	background-image: url(../img/002.png);
+	background-repeat: no-repeat;
+	background-position: 10px;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+	text-shadow: 0 -1px 0 #00558b;
+	
+}
+
+.card-wrap:after {
+	content: '';
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+.card-wrap.fade-out:before {
+	left: -45px;
+    top: 102px;
+    content: '';
+    display: block;
+    position: absolute;
+    height: 92%;
+    width: 100%;
+    clear: both;
+    background: linear-gradient(to right, transparent 0%, #f1f1f1 3.5%);
+    z-index: 2;
+}
+
+.card-wrap {
+	float: left;
+	position: relative;
+}
+
+
+.students-list li {
+	font-size: 13px;
+	margin-bottom: 25px;
+	position: relative;
+	min-height: 15px;
+	
+}
+
+.students-list li a {
+	position: absolute;
+	white-space: nowrap;
+	z-index: 2;
+
+}
+
+.work-space {
+	margin-top: 10px;
+	
+}
+
+.students-list {
+	padding: 40px 0 0 30px;
+	box-sizing: border-box;
+	max-width: 400px;
+	min-width: 202px;
+
+}
+
+
+.students-list>ul {
+	margin-bottom: 90px;
+	position: relative;
+	transition: all 0.2s;
+}
+
+.student-card {
+	float: left;
+	position: relative;
+	padding:  30px 28px;
+	box-sizing: border-box;
+	background-color: #ffffff;
+	width: 730px;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+	font-size: 13px;
+	font-weight: 600;
+	z-index: 5;
+	margin: 3px 0 0 0;
+}
+
+input[value="Удалить"],input[value="Добавить предмет"],input[value="Цветовая маркировка"]  {
+	float: right;
+	color: #3072c4;
+	font-weight: 600;
+	text-decoration: underline;
+	background-color: transparent;
+	border: none;
+	padding-top: 6px;
+	cursor: pointer;
+}
+
+h3 {
+	float: left;
+	font-size: 20px;
+}
+
+.standart-data table {
+	clear: both;
+}
+
+.standart-data table td {
+	padding: 0 20px 20px 0;
+	box-sizing: border-box;
+} 
+
+.standart-data input[type="text"],.new-lesson input[type="text"] {
+	height: 26px;
+	font-size: 13px;
+	font-weight: 600;
+	padding: 2px 0 0 10px;
+	box-sizing: border-box;
+	border: 1px solid #d9d9d9;
+	border-radius: 1px;
+	box-shadow: 0 -0.5px 1px #a9a9a9;
+	width: 265px;
+}
+
+.lesson-list {
+	clear: both;
+}
+
+#birth,#entered {
+	width: 126px;
+	font-size: 14px;
+	float: left;
+	position: relative;
+	z-index: -1;
+	border-radius: 1px;
+
+}
+
+.help {
+	position: absolute;
+	display: none;
+	color: #afafaf;
+	letter-spacing: 2px;
+}
+
+.td-rel {
+	position: relative;
+	z-index: 10;
+}
+
+
+#birth:focus + .help,#entered:focus + .help{
+	display: block;
+	top: -18px;
+    left: 10px;
+
+}
+
+.calendar-wrap {
+	position: relative;
+	background: linear-gradient(to top, #dedede 0%, #fefefe 120%);
+	border-radius: 0 1px 1px 0;
+	height: 25px;
+	display: inline-block;
+    left: -27px;
+	
+}
+
+.invalid ~ .calendar-wrap,.valid ~ .calendar-wrap {
+	top: 1px;
+	height: 24px;
+} 
+
+.invalid ~ .calendar-wrap:active,.valid ~ .calendar-wrap:active {
+	top: 2px !important;
+}
+
+.calendar-wrap:before {
+	content: '';
+	position: absolute;
+	top : -1px;
+	left: -1px;
+	right: -1px;
+	bottom: -1px;
+	border-radius: inherit;
+	background: linear-gradient(to top, #ababab 5%, #d9d9d9 10%);
+	z-index: -1;
+}
+
+.calendar {
+	height: 25px;
+	width: 26px;
+	background-image: url(../img/003.png);
+	background-repeat: no-repeat;
+	background-position: 6px;
+	background-color: transparent;
+	border: none;
+	border-radius: 0 1px 1px 0;
+	cursor: pointer;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+}
+
+.lesson-name { 
+	float: left;
+	width: 33%;
+	margin-bottom: 15px;
+}
+
+.lesson-list>ul:after, .work-space:after  {
+	content: '';
+	visibility: hidden;
+	display: block;
+	clear: both;
+}
+
+.standart-data>form {
+	margin-bottom: 25px;
+}
+
+.standart-data:after {
+	margin-bottom: 45px;
+	content: '';
+	display: block;
+	border-bottom: 1px solid #f2f2f2;
+}
+
+.lessons h3 {
+	margin-bottom: 50px;
+}
+
+.linear-chart-metrics {
+	width: 99%;
+	font-size: 12px;
+	font-weight: 500;
+	color: #909090;
+	margin: 50px auto 0;
+}
+
+.linear-chart-metrics>li {
+	border-right: 1px solid #909090;
+	height: 5px;
+	float: left;
+	width: calc(10% - 1px);
+}
+
+.linear-chart-metrics>:nth-child(2) {
+	border-left: 1px solid #909090;
+	width: calc(10% - 2px);
+}
+
+.linear-chart-metrics>:first-child {
+	border-right: 0;
+	border-left: 1px solid #909090;
+}
+
+.linear-chart-metrics>:first-child,.linear-chart-metrics>:nth-child(5),.linear-chart-metrics>:nth-child(10) {
+	height: 10px;
+}
+
+.linear-chart-metrics>:first-child:after {
+	left: -4px;
+    top: -16px;
+    content: '0';
+    position: relative;
+}
+.linear-chart-metrics>:nth-child(5):after {
+	left: 59px;
+    top: -16px;
+    content: '50';
+    position: relative;
+}
+.linear-chart-metrics>:nth-child(10):after {
+	left: 55px;
+    top: -16px;
+    content: '100';
+    position: relative;
+}
+
+.intermediate {
+	position: relative;
+	top: 5px;
+}
+
+canvas {
+	margin: 0 auto 50px;
+	display: block;
+}
+
+.pie-chart {
+	width: 99%;
+	margin: 0 auto;
+}
+
+.back-hint {
+	position: absolute;
+	width: 200px;
+	text-align: center;
+	font-size: 22px;
+	top: 280px;
+	left: 450px;
+	color: #c1c1c1;
+	text-shadow: 0 -1px 0 rgb(234, 233, 233);
+	z-index: -1;
+
+}
+
+.new-lesson-substrate {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.45);
+	font-size: 13px;
+	font-weight: 600;
+}
+
+@media screen and (max-width: 1000px) {
+	.new-lesson-substrate {
+		width: 1000px;
+	}
+}
+
+.set-100 {
+	overflow: hidden;
+}
+
+.new-lesson {
+	box-sizing: border-box;
+	position: absolute;
+	background-color: white;
+	width: 400px;
+    border-radius: 2px;
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.8);
+	opacity: 0;
+}
+
+.new-lesson input[type="text"] {
+	width: 49%;
+    margin-left: 14.2%;
+}
+
+.new-lesson h3 {
+	text-align: center;
+	float: none;
+	margin: 0;
+}
+
+.new-lesson form[name='new-lesson-name']:after,.new-lesson>.color-choose:after, .color-used:after {
+	content: '';
+	clear: both;
+	display: block;
+	border-bottom: 1px solid #f2f2f2;
+	margin: 20px 0;
+
+}
+
+.new-lesson>.color-used:after {
+	border-bottom: 0;
+}
+	
+
+
+.lesson-color {
+	height: 20px;
+	width: 50px;
+	margin-left: 10.3%;
+	display: inline-block;
+	border-radius: 1px;
+}
+
+input[value="Цветовая маркировка"] {
+	float: none;
+	padding: 0;
+	vertical-align: super;
+}
+
+.clicked-block {
+	padding: 15px 0 ;
+	cursor: pointer;
+	background-color: rgba(1, 131, 216, 0.07);
+}
+
+form[name='submit-save-new-lesson'] {
+	text-align: center;
+	padding: 0 20px 15px !important;
+	margin: 0;
+	
+}
+
+.new-lesson form {
+	margin-top: 20px;
+
+}
+
+.new-lesson>*:not(.clicked-block) {
+	padding: 0 20px;
+}
+
+#lesson-title {
+	vertical-align: initial;
+}
+
+.real-lessons-color {
+	height: 20px;
+	width: 20px;
+	border-radius: 1px;
+	float: left;
+	margin: 0 5px 5px 0;
+}
+
+.color-used>span {
+	margin-bottom: 5px;
+	display: block;
+}
+
+.real-lessons-color:last-child {
+	margin-bottom: 20px;
+}
+
+form[name="submit-save-new-lesson"]>input {
+	height: 30px;
+	line-height: 15px;
+	color: #3072c4;
+	font-weight: 600;
+	text-decoration: underline;
+	background-color: transparent;
+	border: none;
+	padding-top: 6px;
+	cursor: pointer;
+	width: 100px;
+
+}
+
+form[name="submit-save-new-lesson"]>input:hover {
+	background-color: rgba(1, 131, 216, 0.07); 
+}
+
+.choosed,.choosed-after {
+	top: -11px;
+    left: -11px;
+    background-color: white;
+    padding: 9px;
+    text-decoration: none;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #d7d7d7;
+    border-right: none;
+    width: 164px;
+    z-index: 6 !important;
+    overflow: hidden;
+}
+
+.choosed-after {
+	border-right: 1px solid #d7d7d7;
+	border-radius: 5px;
+	z-index: 5 !important;
+	overflow: visible;
+	width: auto;
+}
+
+.choosed:before {
+	top: 0;
+    left: 133px;
+    content: '';
+    width: 55px;
+    height: 33px;
+    background: linear-gradient(to right, transparent 0, #fefefe 50%);
+    position: absolute;
+    z-index: 10;
+}
+
+
+
+.status-valid {
+	color: #13d01a;
+}
+
+.status-invalid {
+	color: #ff0000;
+}
+
+.valid {
+	background-color: rgba(19, 208, 26, 0.09);
+	box-shadow: 0 0 0 2px #13d01a !important;
+	border: none !important;
+}
+
+.invalid {
+	
+	background-color: rgba(255, 0, 0, 0.09);
+	box-shadow: 0 0 0 2px #ff0000 !important;
+	border: none !important;
+}
+
+
+
+
+
+input[type="checkbox"],
+input[type="radio"] {
+    display:none;            
+}
+
+input[type="radio"] + label {
+	margin-right: 15px;
+}
+
+input[type="checkbox"] + label::before,
+input[type="radio"] + label::before {
+    content: "";
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    margin: 0 5px 0 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    top: 3.5px;
+
+}
+input[type="checkbox"] + label::before {
+	background-image: url(../img/check_back.png);
+     
+}
+input[type="radio"] + label::before {
+    background-image: url(../img/radio_back.png);
+}
+input[type="checkbox"]:checked + label::before {
+    background-image: url(../img/check_active.png);
+}
+input[type="radio"]:checked + label::before {
+    background-image: url(../img/radio_active.png);
+}
