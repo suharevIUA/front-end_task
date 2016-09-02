@@ -304,7 +304,8 @@ input[value="Сохранить изменения"] {
 }
 
 .card-wrap.fade-out:before {
-	left: -45px;
+    pointer-events: none;
+    left: -45px;
     top: 102px;
     content: '';
     display: block;
